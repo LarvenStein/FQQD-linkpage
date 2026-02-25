@@ -316,3 +316,56 @@ header {
         margin-bottom: 1rem;
     }
 }
+
+
+/* phishing warning - this anint a joke */
+
+#warning-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warning {
+    width: 50%;
+    min-height: 6rem;
+    margin: 1rem;
+    border-radius: .75rem;
+    text-decoration: none;
+    border: solid red 1px;
+    backdrop-filter: blur(5px);
+    padding: 0.75rem;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 5;
+}
+
+.warning-headline {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.warning-text {
+    margin: 0;
+    margin-top: .5rem;
+    color: white;
+}
+
+.warning-link {
+    color: red;
+}
+
+.warning-x {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: .5rem;
+}
+.warning-x:hover {
+    cursor: pointer;
+}
